@@ -7,6 +7,11 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Scanner;
 
+// To run on a single core, compile and then run as:
+// taskset -c 0 java GroupN
+// To avoid file reading/writing connections to the server, run in /tmp 
+// of your lab machine.
+
 public class Group0 {
 
 	public static void main(String[] args) throws InterruptedException, FileNotFoundException {
