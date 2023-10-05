@@ -7,7 +7,19 @@ The Sorting Competition is a multi-lab exercise on developing the fastest sortin
 
 ## The data  <a name="data"></a>
 
+You will be sorting fixed length integers (the program reads them as Strings to preserve the leading zeros, i.e. to keep the format as 0012 instead of 12 when the length is 4). The integers will be sorted as follows:
+   * By the sum of all prime factors of the numbers in increasing.
+   * If the two numbers have the same sum of the prime factors, they are ordered by value in decreasing order.
+For example:
+   * 1024 is before 1000 since the sum of prime factors of 1024 is 2, and the sume of prime factors of 1000 is 7.
+   * 0121 is before 0011 since their sum of prime factors is 11 for both, and 121 > 11, so they are in decreasing order.
+   * We consider both 0 and 1 to have zero prime factors. 0001 is before 0000 since their sum of prime factors is 0, and 1 > 0.
 
+The file [Group0.java](src/Group0.java) provides a Comparator that implements this comparison and provides some tests. Please
+consult it as needed. However, note that this is a slow implementation, and you should think of a way to make yours much faster. 
+
+Once the data is sorted, it is written out to the output file, also one number per line, ordered according to the comparator. 
+The file [small_out.txt](small_out.txt) has the results of sorting [small.txt](small.txt). 
 
 ## Setup for sorting <a name="setup"></a>
 
