@@ -10,6 +10,7 @@ The Sorting Competition is a multi-lab exercise on developing the fastest sortin
 You will be sorting fixed length integers (the program reads them as Strings to preserve the leading zeros, i.e. to keep the format as 0012 instead of 12 when the length is 4). The integers will be sorted as follows:
    * By the sum of all unique prime factors of the numbers in increasing order.
    * If the two numbers have the same sum of the prime factors, they are ordered by value in decreasing order.
+
 For example:
    * 1024 is before 1000 since the sum of prime factors of 1024 is 2, and the sume of prime factors of 1000 is 7.
    * 0121 is before 0011 since their sum of prime factors is 11 for both, and 121 > 11, so they are in decreasing order.
