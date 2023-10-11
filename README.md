@@ -16,8 +16,12 @@ For example:
    * 0121 is before 0011 since their sum of prime factors is 11 for both, and 121 > 11, so they are in decreasing order.
    * We consider both 0 and 1 to have zero prime factors. 0001 is before 0000 since their sum of prime factors is 0, and 1 > 0.
 
-The file [Group0.java](src/Group0.java) provides a Comparator that implements this comparison and provides some tests. Please
-consult it as needed. However, note that this is a slow implementation, and you should think of a way to make yours much faster. 
+The file [Group00.java](src/Group00.java) provides a Comparator that implements this comparison and provides some tests. Please
+consult it as needed. However, note that this is a *very* slow implementation. You can use it for small examples to test correctness, 
+but it's too slow on actual data files to be of any use. Because of this I provided the .class file (but not the source code) for a 
+faster reference implementation. It's in the [bin](bin/) folder and consists of two class file: Group0.class and Group0$Data.class. 
+Download these classes. You can run them directly by navigating to the bin directory typing ```java Group0``` followed by the input 
+file name (make sure it exists; use a relative path from bin) and the output file name (if no path specified then will be created in bin).
 
 Once the data is sorted, it is written out to the output file, also one number per line, ordered according to the comparator. 
 The file [small_out.txt](small_out.txt) has the results of sorting [small.txt](small.txt). 
