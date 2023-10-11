@@ -24,7 +24,8 @@ Download these classes. You can run them directly by navigating to the bin direc
 file name (make sure it exists; use a relative path from bin) and the output file name (if no path specified then will be created in bin).
 
 Once the data is sorted, it is written out to the output file, also one number per line, ordered according to the comparator. 
-The file [small_out.txt](small_out.txt) has the results of sorting [small.txt](small.txt). 
+The file [small_out.txt](small_out.txt) has the results of sorting [small.txt](small.txt). The larger example data is [data.txt](data.txt), 
+and the result of sorting it is [data_out.txt](data_out.txt) 
 
 ## Setup for sorting <a name="setup"></a>
 
