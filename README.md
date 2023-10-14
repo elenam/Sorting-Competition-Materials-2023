@@ -1,6 +1,15 @@
 # Sorting-Competition-Materials-2023
 Materials and results for the UMN Morris CSci 3501 sorting competition, Fall 2023
 
+# Table of contents
+* [Goal of the competition](#goal)
+* [The data](#data)
+* [How is the data generated](#generating)
+* [How do you need to sort the data](#sortingRules)
+* [Setup for sorting](#setup)
+* [Submision deadlines](#deadlines)
+* [Scoring](#scoring)
+
 ## Goal of the competition <a name="goal"></a>
 
 The Sorting Competition is a multi-lab exercise on developing the fastest sorting algorithm for a given type of data. By "fast" we mean the actual running time and not the Big-Theta approximation. The solutions are developed in Java and will be ran on a single processor.
@@ -51,4 +60,35 @@ The file has to be exactly the same as in the prototype implementation; they wil
 If you are not changing the return type, you don't need to modify anything other than `sort` method and any methods/classes called from it. 
 
 Even though you are not modifying anything other than the `sort` method, you still need to submit your entire class: copy the template, rename the Java class to your group number, and change the`sort` method. You may use supplementary classes, just don't forget to submit them. Make sure to add your names in comments when you submit. 
+
+### Other restrictions ###
+   * Any memory allocated by your sorting method and any methods called from it must be allocated only for the duration of one round of sorting. All of the data must be recomputed on a subsequent sorting. Be especially careful with static methods, classes, or variables - they are computed once for all instances. Make sure that there is nothing left from the JVM warmup run that could be used in the actual sorting. 
+   * Your program will be executed on a single core (see details below), so even if you are using multithreading all the threads will be executed on the same core. However, use of multithreading is allowed, as long as you spawn no more than 4 threads and the number of threads is always the same and doesn't depend on the data.  
+     
+As always, definitely ask questions if you are not sure if your code is following the rules. 
+
+## Scoring <a name="scoring"></a>
+
+The programs are tested on a few (between 1 and 3) data sets. For each data set each group's program is run three times, the median value is recorded. The groups are ordered by their median score for each data file and assigned places, from 1 to N. 
+
+The final score is given by the sum of places for all data sets. If the sum of places is equal for two groups, the sum of median times for all the runs resolves the tie. So if one group was first for one data set and third for the other one (2 sets total being run), it scored better than a group that was third for the first data set and second for the other. However, if one group was first for the first set and third for the other one, and the second group was second in both, the sum of times determines which one of them won since the sum of places is the same (1 + 3 = 2 + 2). 
+
+If a program has a compilation or a runtime error, doesn't sort correctly, or prints anything other than the total time in milliseconds, it gets a penalty of 1000000ms for that run. 
+
+## System specs <a name="specs"></a>
+
+The language used is Java that's installed in the CSci lab.
+
+I will post a script for running the competition (with a correctness check) with the results of the first preliminary competition, but for now a couple of things to know: run your program out of `/tmp` directory to avoid overhead of communications with the file server, and pin your program to a single core, i.e. run it like this:
+``taskset -c 0 java GroupN``
+
+##  Submision deadlines <a name="deadlines"></a>
+
+The first preliminary competition will be run on Thursday October 19th in the lab (due Wednesday Oct 18th at the end of the day). The purpose of it is mostly to check the correctness and to get a sense for your timing. 
+
+The second preliminary round will be in the lab on Monday October 23rd (due Monday Oct 23rd at 11:30am) 
+
+The final competition will be on Thursday October 26th in the lab (due Wed Oct 25th)
+
+The dates for other related assignments (code review and presentations) will be announced later. 
 
