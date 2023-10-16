@@ -51,7 +51,7 @@ The method in the [Group0.java](src/Group0.java) files that you may modify is th
 The method can sort in place (thus be `void`) or return type of the method can be what it is now or return the result in an array of another type.
 If you are returning an array, the following rules have to be followed:
 * Your `sort` method return type needs to be changed to whatever  array you are returning. Consequently you would need to change the call in `main` to store the resulting array. 
-* Your return type has to be an array (not an array list!) and it has to have one element per element of the original array. That element (or its field) must be printed as is into the result, no processing should be needed before printing. 
+* Your return type has to be an array (not an array list!) and it has to have one element per element of the original array. That element (or its field) must be printed as is into the result, no processing should be needed before printing. Use of `printf` in formatting is ok. 
 For example, you may create your own class (I will call it `Data` as an example) that has the `int` value of a number plus some other fields. Then you will be returning an array of `Data`. 
 You may not, however, create an array of just binary representations of all numbers, return that array, and convert back to decimal upon printing.   
 * If you are returning a different type of an array, such as `Data`, you need to supply a method to write out your resulting array into a file. The method will access the `int` value field using a `get` method or directly (if it's accessible) and write it to a file. 
