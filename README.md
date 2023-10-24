@@ -86,7 +86,7 @@ I will post a script for running the competition (with a correctness check) with
 
 The first preliminary competition will be run on Thursday October 19th in the lab (due Wednesday Oct 18th at the end of the day). The purpose of it is mostly to check the correctness and to get a sense for your timing. 
 
-The second preliminary round will be in the lab on Monday October 23rd (due Monday Oct 23rd at 11:30am) 
+The second preliminary round will be run from the classroom on Tuesday October 24th on zoom (due Monday Oct 23rd at 11:59pm). If you are not in the class and would like to join zoom, please contact me.  
 
 The final competition will be on Thursday October 26th in the lab (due Wed Oct 25th)
 
