@@ -1,0 +1,86 @@
+Running prelim4.txt
+
+
+ Group 0: 
+
+31492
+
+31522
+
+31509
+
+Median: 31509.0
+Results of diff:
+
+
+ Group 1: 
+
+31529
+
+31517
+
+31544
+
+Median: 31529.0
+Results of diff:
+
+
+ Group 2: 
+
+1141
+
+1132
+
+1137
+
+Median: 1137.0
+Results of diff:
+
+
+ Group 3: 
+
+241
+
+185
+
+159
+
+Median: 185.0
+Results of diff:
+
+
+ Group 4: 
+
+91
+
+64
+
+36
+
+Median: 64.0
+Results of diff:
+
+
+ Group 5: 
+
+916
+
+938
+
+937
+
+Median: 937.0
+Results of diff:
+
+
+ Group 6: 
+
+32831
+
+32816
+
+32855
+
+Median: 32831.0
+Results of diff:
+
