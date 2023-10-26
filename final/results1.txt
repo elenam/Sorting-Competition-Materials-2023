@@ -1,283 +1,27 @@
-Running prelim3.txt
-
-
- Group 0: 
-
-Running prelim4.txt
-
-
- Group 0: 
-
-31516
-
-31486
-
-31499
-
-Median: 31499.0
-Results of diff:
-
-
- Group 1: 
-
-31507
-
-31551
-
-31544
-
-Median: 31544.0
-Results of diff:
-
-
- Group 2: 
-
-1136
-
-1137
-
-1135
-
-Median: 1136.0
-Results of diff:
-
-
- Group 3: 
-
-208
-
-205
-
-191
-
-Median: 205.0
-Results of diff:
-
-
- Group 4: 
-
-78
-
-71
-
-87
-
-Median: 78.0
-Results of diff:
-
-
- Group 5: 
-
-930
-
-929
-
-932
-
-Median: 930.0
-Results of diff:
-
-
- Group 6: 
-
-32817
-
-32814
-
-32821
-
-Median: 32817.0
-Results of diff:
-
-Running prelim3.txt
-
-
- Group 0: 
-
-628973
-
-Running prelim3.txt
-
-
- Group 0: 
-
-315855
-
-Running prelim3.txt
-
-
- Group 0: 
-
-Running prelim3.txt
-
-
- Group 0: 
-
-64113
-
-63770
-
-63193
-
-Median: 63770.0
-Results of diff:
-
-
- Group 1: 
-
-63746
-
-63855
-
-63063
-
-Median: 63746.0
-Results of diff:
-
-
- Group 2: 
-
-190
-
-192
-
-190
-
-Median: 190.0
-Results of diff:
-
-
- Group 3: 
-
-8
-
-8
-
-8
-
-Median: 8.0
-Results of diff:
-
-
- Group 4: 
-
-1109
-
-1135
-
-1720
-
-Median: 1135.0
-Results of diff:
-
-
- Group 5: 
-
-82
-
-85
-
-87
-
-Median: 85.0
-Results of diff:
-
-
- Group 6: 
-
-63547
-
-62990
-
-62453
-
-Median: 62990.0
-Results of diff:
-
-Running prelim3.txt
-
-
- Group 0: 
-
-5533
-
-5533
-
-5533
-
-Median: 5533.0
-Results of diff:
-
-
- Group 1: 
-
 Running final1.txt
 
 
  Group 0: 
 
-Running final1.txt
+3904
 
+3907
 
- Group 0: 
+3908
 
-11650
-
-11651
-
-11650
-
-Median: 11650.0
+Median: 3907.0
 Results of diff:
 
 
  Group 1: 
 
-Running final1.txt
+41074
 
+41090
 
- Group 0: 
+41076
 
-4286
-
-4285
-
-4285
-
-Median: 4285.0
-Results of diff:
-
-
- Group 1: 
-
-58065
-
-58065
-
-Running final1.txt
-
-
- Group 0: 
-
-3877
-
-3875
-
-3877
-
-Median: 3877.0
-Results of diff:
-
-
- Group 1: 
-
-41087
-
-41091
-
-41088
-
-Median: 41088.0
+Median: 41076.0
 Results of diff:
 
 
@@ -307,13 +51,13 @@ Results of diff:
 
  Group 4: 
 
-5
+4
 
-5
+4
 
-5
+4
 
-Median: 5.0
+Median: 4.0
 Results of diff:
 
 
@@ -321,7 +65,7 @@ Results of diff:
 
 4
 
-5
+4
 
 4
 
@@ -331,56 +75,6 @@ Results of diff:
 Files outRun1Group5.txt and outRun1Group0.txt differ
 
  Group 6: 
-
-41093
-
-41086
-
-41100
-
-Median: 41093.0
-Results of diff:
-
-Running final1.txt
-
-
- Group 0: 
-
-3875
-
-3875
-
-3873
-
-Median: 3875.0
-Results of diff:
-
-
- Group 1: 
-
-41079
-
-41086
-
-41085
-
-Median: 41085.0
-Results of diff:
-
-
- Group 2: 
-
-0
-
-0
-
-0
-
-Median: 0.0
-Results of diff:
-
-
- Group 3: 
 
 2
 
@@ -389,43 +83,6 @@ Results of diff:
 2
 
 Median: 2.0
-Results of diff:
-
-
- Group 4: 
-
-5
-
-5
-
-5
-
-Median: 5.0
-Results of diff:
-
-
- Group 5: 
-
-4
-
-4
-
-4
-
-Median: 4.0
-Results of diff:
-
-Files outRun1Group5.txt and outRun1Group0.txt differ
-
- Group 6: 
-
-41091
-
-41074
-
-41090
-
-Median: 41090.0
 Results of diff:
 
 
@@ -435,7 +92,7 @@ Results of diff:
 
 1
 
-2
+1
 
 Median: 1.0
 Results of diff:

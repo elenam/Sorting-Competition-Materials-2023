@@ -225,7 +225,7 @@ public class Group5 {
 	}
 
 	private static void introSort(String[] arr) {
-		int maxDepth = iLog2(arr.length) * 2;
+		int maxDepth = (int)(Math.log(arr.length) / Math.log(2)) * 2;
 		int l = 0, h = arr.length - 1;
 		Stack<int[]> s = new Stack<>();
 		s.push(new int[]{l, h});
@@ -309,7 +309,7 @@ public class Group5 {
     }
 
     public static int parent(int node) {
-        return (node - 1) >> 2;
+        return (node - 1) >> 1;
     }
 
     public static int leftChild(int node) {
