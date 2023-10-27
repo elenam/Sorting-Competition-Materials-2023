@@ -3,92 +3,92 @@ Running final1.txt
 
  Group 0: 
 
-3904
+21328
 
-3907
+21326
 
-3908
+21330
 
-Median: 3907.0
+Median: 21328.0
 Results of diff:
 
 
  Group 1: 
 
-41074
+254319
 
-41090
+254353
 
-41076
+254334
 
-Median: 41076.0
+Median: 254334.0
 Results of diff:
 
 
  Group 2: 
 
-0
+1
 
 1
 
-0
+1
 
-Median: 0.0
+Median: 1.0
 Results of diff:
 
 
  Group 3: 
 
-2
+16
 
-2
+8
 
-2
+10
 
-Median: 2.0
+Median: 10.0
 Results of diff:
 
 
  Group 4: 
 
-4
+23
 
-4
+23
 
-4
+23
 
-Median: 4.0
+Median: 23.0
 Results of diff:
 
 
  Group 5: 
 
-4
+37
 
-4
+38
 
-4
+49
 
-Median: 4.0
+Median: 38.0
 Results of diff:
 
 Files outRun1Group5.txt and outRun1Group0.txt differ
 
  Group 6: 
 
-2
+14
 
-2
+15
 
-2
+16
 
-Median: 2.0
+Median: 15.0
 Results of diff:
 
 
  Group 7: 
 
-1
+2
 
 1
 

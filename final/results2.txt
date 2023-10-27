@@ -3,23 +3,23 @@ Running final2.txt
 
  Group 0: 
 
-732
+730
+
+730
 
 731
 
-731
-
-Median: 731.0
+Median: 730.0
 Results of diff:
 
 
  Group 1: 
 
-6258
-
-6263
+6260
 
 6266
+
+6263
 
 Median: 6263.0
 Results of diff:
@@ -29,7 +29,7 @@ Results of diff:
 
 1
 
-2
+1
 
 1
 
@@ -43,7 +43,7 @@ Results of diff:
 
 4
 
-6
+3
 
 Median: 4.0
 Results of diff:
@@ -65,11 +65,11 @@ Results of diff:
 
 5
 
-11
+7
 
-11
+5
 
-Median: 11.0
+Median: 5.0
 Results of diff:
 
 Files outRun2Group5.txt and outRun2Group0.txt differ
@@ -78,9 +78,9 @@ Files outRun2Group5.txt and outRun2Group0.txt differ
 
 5
 
-5
+4
 
-5
+8
 
 Median: 5.0
 Results of diff:
@@ -88,7 +88,7 @@ Results of diff:
 
  Group 7: 
 
-0
+1
 
 1
 
