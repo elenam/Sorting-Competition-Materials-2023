@@ -9,6 +9,7 @@ Materials and results for the UMN Morris CSci 3501 sorting competition, Fall 202
 * [Setup for sorting](#setup)
 * [Submision deadlines](#deadlines)
 * [Scoring](#scoring)
+* [Results](#results)
 
 ## Goal of the competition <a name="goal"></a>
 
@@ -92,3 +93,36 @@ The final competition will be on Thursday October 26th in the lab (due Wed Oct 2
 
 The dates for other related assignments (code review and presentations) will be announced later. 
 
+##  Results <a name="results"></a>
+
+The final scoreboard is:
+
+```
+group 7 took place  1. The sum of places is 5, the sum of medians is 27.0
+
+group 2 took place  2. The sum of places is 7, the sum of medians is 205.0
+
+group 3 took place  3. The sum of places is 10, the sum of medians is 199.0
+
+group 6 took place  4. The sum of places is 11, the sum of medians is 92.0
+
+group 4 took place  5. The sum of places is 12, the sum of medians is 93.0
+
+group 0 took place  6. The sum of places is 18, the sum of medians is 22364.0
+
+group 1 took place  7. The sum of places is 21, the sum of medians is 1260597.0
+
+group 5 took place  8. The sum of places is 24, the sum of medians is 3000000.0
+```
+
+Group 5 sorted incorrectly, and therefore got a penalty. 
+
+Unfortunately, two other groups also had correctness issues: Group 2 had a hashmap with values left over from the JVM warmup round, and 
+Group 4 didn't have the part that sorts numbers with equal sum of prime factors in a decreasing order. Thus only three groups in the
+class actually finsihed correctly:
+   * Group 3 (1st place) - Harry, Jaydon 
+   * Group 6 (2nd place) - Collin, Max
+   * Group 1 (3rd place) - Will, Alwin
+The out-of-class entry was the first overall, the author - Ollie Willette.
+
+Other groups were: Group 2: Chenfei, Brendan; Group 4: Dongting, Simon; Group 5: John, Matthew. 
