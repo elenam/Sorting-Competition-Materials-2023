@@ -67,12 +67,15 @@ public class Group5 {
 	// a file in the exact same format that my program outputs
 	private static void sort(String[] toSort) {
 		foundSums.clear();
+		/* 
 		if (toSort.length > 2000) {
 			introSort(toSort);
 		}
 		else {
 			Arrays.sort(toSort, Group5::compare);	
 		}
+		*/
+		Arrays.sort(toSort, Group5::compare);
 	}
 		//Move local method variables to static variables to hopefully reduce gc.
 		private static int[] foundFactors = new int[10]; 
@@ -138,7 +141,7 @@ public class Group5 {
 				if (n % (i + 2) == 0 && !arrayContains(i + 2) && isPrime(i + 2)) {
 					foundFactors[factorIndex++] = i + 2;
 					sum += i + 2;
-					n1 /= i + 2;
+					n1 /= (i + 2);
 				}
 			}
 
@@ -148,10 +151,10 @@ public class Group5 {
 						n1 /= foundFactors[i];
 					}
 				}
-				if (!arrayContains(n1)) {
+			}
+			if (n1 != 1 && isPrime(n1) && !arrayContains(n1)) {
 					sum += n1;
 				}
-			}
 			foundSums.put(n, sum);
 			return sum;
 		}
@@ -185,7 +188,9 @@ public class Group5 {
 
 		private static boolean isPrime(int n) {
 			if (n < 2719) {
-				return shortPrimes[binarySearch(shortPrimes, n)] == n;
+				if (shortPrimes[binarySearch(shortPrimes, n)] == n) {
+					return shortPrimes[binarySearch(shortPrimes, n)] == n;
+				}
 			}
 			for (short s: shortPrimes) {
 				if (s * s > n) {
@@ -215,13 +220,6 @@ public class Group5 {
 		String tmp = arr[l];
 		arr[l] = arr[h];
 		arr[h] = tmp;
-	}
-
-	private static int iLog2(int n) {
-		if (n == 0) {
-			return 0;
-		}
-		return 31 - Integer.numberOfLeadingZeros(n);
 	}
 
 	private static void introSort(String[] arr) {
@@ -313,7 +311,7 @@ public class Group5 {
     }
 
     public static int leftChild(int node) {
-        return (node << 1) | 1;
+        return (node << 1) + 1;
     }
 
     public static int rightChild(int node) {
