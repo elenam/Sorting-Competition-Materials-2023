@@ -10,6 +10,7 @@ Materials and results for the UMN Morris CSci 3501 sorting competition, Fall 202
 * [Submision deadlines](#deadlines)
 * [Scoring](#scoring)
 * [Results](#results)
+* [Presentations](#presentations)
 
 ## Goal of the competition <a name="goal"></a>
 
@@ -126,3 +127,8 @@ class actually finsihed correctly:
 The out-of-class entry was the first overall, the author - Ollie Willette.
 
 Other groups were: Group 2: Chenfei, Brendan; Group 4: Dongting, Simon; Group 5: John, Matthew. 
+
+##  Presentations <a name="presentations"></a>
+
+The presentations slides, including John Walbran's presentation on the external submission by Ollie Willette, are available [here](slides/)
+
