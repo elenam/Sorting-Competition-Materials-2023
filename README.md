@@ -120,7 +120,7 @@ Group 5 sorted incorrectly, and therefore got a penalty.
 
 Unfortunately, two other groups also had correctness issues: Group 2 had a hashmap with values left over from the JVM warmup round, and 
 Group 4 didn't have the part that sorts numbers with equal sum of prime factors in a decreasing order. Thus only three groups in the
-class actually finsihed correctly:
+class actually finished correctly:
    * Group 3 (1st place) - Harry, Jaydon 
    * Group 6 (2nd place) - Collin, Max
    * Group 1 (3rd place) - Will, Alwin
