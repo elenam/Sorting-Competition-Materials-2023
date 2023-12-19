@@ -118,14 +118,14 @@ group 5 took place  8. The sum of places is 24, the sum of medians is 3000000.0
 
 Group 5 sorted incorrectly, and therefore got a penalty. 
 
-Unfortunately, two other groups also had correctness issues: Group 2 had a hashmap with values left over from the JVM warmup round, and 
-Group 4 didn't have the part that sorts numbers with equal sum of prime factors in a decreasing order. Thus only three groups in the
+Unfortunately, another groups also had correctness issues: Group 2 had a hashmap with values left over from the JVM warmup round. Thus only four groups in the
 class actually finished correctly:
    * Group 3 (1st place) - Harry, Jaydon 
    * Group 6 (2nd place) - Collin, Max
-   * Group 1 (3rd place) - Will, Alwin
+   * Group 4 (3rd place) - Dongting, Simon
+   * Group 1 (4th place) - Will, Alwin
 
-Other groups were: Group 2: Chenfei, Brendan; Group 4: Dongting, Simon; Group 5: John, Matthew. 
+Other groups were: Group 2: Chenfei, Brendan; Group 5: John, Matthew. 
 
 The out-of-class entry (Group 7) was the first overall, the author - Ollie Willette. 
 
