@@ -124,9 +124,10 @@ class actually finished correctly:
    * Group 3 (1st place) - Harry, Jaydon 
    * Group 6 (2nd place) - Collin, Max
    * Group 1 (3rd place) - Will, Alwin
-The out-of-class entry was the first overall, the author - Ollie Willette.
 
 Other groups were: Group 2: Chenfei, Brendan; Group 4: Dongting, Simon; Group 5: John, Matthew. 
+
+The out-of-class entry (Group 7) was the first overall, the author - Ollie Willette. 
 
 ##  Presentations <a name="presentations"></a>
 
